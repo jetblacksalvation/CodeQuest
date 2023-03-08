@@ -14,7 +14,7 @@ for input_count in range(int(input())):
         pass
     else:
         try:
-            print(float(dividend/divisor))
+            print(round(float(dividend/divisor),1))
         except:
             pass
     pass
